@@ -26,7 +26,7 @@ button.addEventListener("click", () => {
 });
 
 textbox.addEventListener("keydown", event => {
-  if (event.keyCode === 13) {
+  if (event.key === "Enter") {
     event.preventDefault();
     button.click();
   }
