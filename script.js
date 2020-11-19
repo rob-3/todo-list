@@ -5,7 +5,7 @@ const textbox = document.querySelector("#textbox");
 button.addEventListener("click", () => {
   const itemName = textbox.value;
   textbox.value = "";
-  const newItem = document.createElement("li");
+  const newItem = document.createElement("div");
 
   const checkbox = document.createElement("input");
   checkbox.setAttribute("type", "checkbox");
